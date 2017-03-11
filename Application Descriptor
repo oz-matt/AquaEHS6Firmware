@@ -1,0 +1,10 @@
+Oracle-MIDlet-Restart-Count: 1
+MIDlet-1: AquaEHS6Firmware,,AquaEHS6Firmware
+MIDlet-Jar-URL: AquaEHS6Firmware.jar
+Oracle-MIDlet-Autostart: 2
+Oracle-MIDlet-Restart: true
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: MIDlet Suite Vendor
+MIDlet-Name: AquaEHS6Firmware MIDlet Suite
+MicroEdition-Profile: IMP-NG
