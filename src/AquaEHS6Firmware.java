@@ -137,13 +137,13 @@ public class AquaEHS6Firmware extends MIDlet {
 			  
 			  System.out.println("aqobj: ");// + aqsenObj.toString());
 			  
-			  String omg = "{\"reqtype\":\"aqsen\",\"aquakey\":\"D4F8C385DE09BF63\",\"iid\":\"50.176.32.147\",\"aqsen\":{\"datetime\":\"2017-09-30T14:24:21.966Z\",\"uuid\":\"108af48b-7071-419e-812f-8cb06d763db5\",\"gpsminimum\":{\"time\":\"2017-02-17T09:44:00.280Z\",\"numsat\":\"6\",\"lon\":\"99.4" + coor + "\",\"lat\":\"35." + ircoor + "\",\"height\":\"35.5\",\"gspeed\":\"0.00543\",\"direction\":\"354.6796\"},\"gpsextended\": {\"carrierdata\": \"" + CarrierInfoFormatted + "\"},\"sensors\":{\"ptc_battery\":\"85\",\"accelerometer\":\"0,34,5\",\"temperature\":\"54\",\"humidity\":\"10\",\"pressure\":\"5\",\"update_rate\":\"1\"},\"ble\":{\"devices_seen\":[\"AA:BB:CC:DD:EE:FF\",\"11:22:33:44:55:66\",\"77:88:99:00:AA:BB\",\"00:11:22:33:44:55\",\"AA:BB:CC:DD:EE:EE\"]},\"custom\":{},\"incoming_ip\":\"68.15.55.192\",\"install_id\":\"abcdefghijklmnop\"}}";
+			  String omg = "{\"reqtype\":\"aqsen\",\"aquakey\":\"D4F8C385DE09BF63\",\"iid\":\"50.176.32.147\",\"aqsen\":{\"datetime\":\"2017-09-30T14:24:21.966Z\",\"uuid\":\"108af48b-7071-419e-812f-8cb06d763db5\",\"gpsminimum\":{\"time\":\"2017-02-17T09:44:00.280Z\",\"numsat\":\"6\",\"lon\":\"99.4" + coor + "\",\"lat\":\"35." + ircoor + "\",\"height\":\"35.5\",\"gspeed\":\"0.00543\",\"direction\":\"354.6796\"},\"gpsextended\": {\"carrierdata\": \"" + CarrierInfoFormatted + "\"},\"sensors\":{\"pct_battery\":\"85\",\"accelerometer\":\"0,34,5\",\"temperature\":\"54\",\"humidity\":\"10\",\"pressure\":\"5\",\"update_rate\":\"1\"},\"ble\":{\"devices_seen\":[\"AA:BB:CC:DD:EE:FF\",\"11:22:33:44:55:66\",\"77:88:99:00:AA:BB\",\"00:11:22:33:44:55\",\"AA:BB:CC:DD:EE:EE\"]},\"custom\":{},\"incoming_ip\":\"68.15.55.192\",\"install_id\":\"abcdefghijklmnop\"}}";
 			  os.write(omg.getBytes());
 			  os.flush();
 			  //os.write(aqsenObj.toString().getBytes());
 			  System.out.println("done!");// + aqsenObj.toString());
 			  
-			  //String yo = "yooyyo";
+			  //String yo = "yooyyo"; ........ whaa?
 			  //os.write(yo.getBytes());
 			  
 			  /*StringBuffer sb = new StringBuffer();
